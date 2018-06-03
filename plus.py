@@ -1,4 +1,4 @@
 #!usr/bin/env python
 
-def plus(a,b)
+def plus(a,b):
     return a+b
