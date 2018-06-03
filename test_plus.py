@@ -12,6 +12,6 @@ class TestPlus(unittest.TestCase):
        self.assertTrue(3.299999 < plus(1.1,2.2) < 3.300001)
        
    def test_str(self):
-       sel.assertEaual(plus("ab","cd"), "abcd", "error on str")
+       self.assertEaual(plus("ab","cd"), "abcd", "error on str")
    
 unittest.main()
